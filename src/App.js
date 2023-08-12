@@ -5,7 +5,7 @@ import styled from "styled-components";
 const ImageGalleryMainDiv = styled.div`
   margin: 50px 0;
 `;
-const App = (props) => {
+const FlexGallery = (props) => {
   const [model, setModel] = useState(false);
   const [isLoaded, setIsLoaded] = React.useState(false);
   const [tempImgSrc, setTempSrc] = useState("");
@@ -91,4 +91,4 @@ const App = (props) => {
   );
 };
 
-export default App;
+export default FlexGallery;
